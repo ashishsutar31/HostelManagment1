@@ -5,7 +5,7 @@ RUN rm -rf /usr/local/tomcat/webapps/*
 
 COPY target/HostelManagementSystem.war /usr/local/tomcat/webapps/HostelManagementSystem.war
 
-EXPOSE 8081
+EXPOSE 8080
 
 # Start Tomcat
 CMD ["catalina.sh", "run"]
