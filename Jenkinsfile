@@ -19,7 +19,7 @@ pipeline {
         stage('Push to DockerHub') {
             steps {
                 sh '''
-                    docker login -u ashishsutar -p Ashish@9630
+                    docker login -u ashishsutar -p 000000 */#password*/
                     docker push ashishsutar/ashish-hostel-management
                 '''
             }
